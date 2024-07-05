@@ -7,7 +7,7 @@ document .addEventListener('DOMContentLoaded', () => {
     const publishedDate = document.getElementById('publishedDate');
     const pages = document.getElementById('pages');
 
-    const apiUrl = 'http:///api/books';
+    const apiUrl = 'https://myapp-bice-nine.vercel.app//api/books';
 
     bookForm.addEventListener('submit', async (event) => {
         event.preventDefault();
